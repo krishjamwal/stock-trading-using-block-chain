@@ -4,7 +4,6 @@ import axios from "axios"
 import { toast } from "react-toastify"
 
 function Portfolio() {
-
   const [stocks, setStocks] = useState([])
   const [loading, setLoading] = useState(false)
 
