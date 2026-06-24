@@ -20,7 +20,7 @@ function Watchlist() {
     axios.post("http://localhost:5000/api/watchlist/remove", { id })
       .then(() => {
         fetchWatchlist()
-        toast.success(`${name} removed ❌`)
+        toast.success(`${name} removed `)
       })
   }
 
